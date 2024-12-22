@@ -1,0 +1,35 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "It is a tic toc toe game based on Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavranjan23/Tic-Tac-Toe.git"
+  },
+  "keywords": [
+    "Tic-Tac-Toe"
+  ],
+  "author": "Abhinav Ranjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavranjan23/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/abhinavranjan23/Tic-Tac-Toe#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.13.3",
+    "postcss": "^8.4.49",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
