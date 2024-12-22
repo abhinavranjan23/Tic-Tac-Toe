@@ -4,7 +4,9 @@ const Block = ({ value, index, setBox, animate }) => {
   };
   return (
     <button
-      className={`border-2 border-black text-tgray text-7xl font-bold bg-ngreen hover:bg-hgree ${
+      className={`border-2 border-black ${
+        value === "x" ? "text-tgray" : " text-black "
+      } text-7xl font-bold bg-ngreen hover:bg-hgree ${
         animate ? "animate-hflip text-transparent " : ""
       }`}
       onClick={handleClick}

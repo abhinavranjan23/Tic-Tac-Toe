@@ -7,6 +7,7 @@ module.exports = {
       hgree: "#78938A",
       ngreen: "#92BA92",
       tgray: "#525E75",
+      black: "black",
     },
     extend: {
       animation: {
