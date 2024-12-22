@@ -8,7 +8,6 @@ const useGameFunc = () => {
   const [countDown, setCountDown] = useState(null);
   const [animate, setAnimate] = useState(false);
   const [showReset, setShowReset] = useState(false);
-
   const handleBox = (ind) => {
     const newBox = [...box];
     if (!newBox[ind] && !winner) {
@@ -32,7 +31,7 @@ const useGameFunc = () => {
   }, [box]);
   useEffect(() => {
     if (winner) {
-      let countTime = 2;
+      let countTime = 5;
       setCountDown(countTime);
       const timeOut = setInterval(() => {
         countTime -= 1;
