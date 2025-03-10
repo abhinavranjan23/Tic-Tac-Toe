@@ -8,6 +8,10 @@ module.exports = {
       ngreen: "#92BA92",
       tgray: "#525E75",
       black: "black",
+      bggreen: "#33ffbd",
+      white: "white",
+      red: "#f54263",
+      blue: "#42c5f5",
     },
     extend: {
       animation: {
